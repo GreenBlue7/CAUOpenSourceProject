@@ -106,7 +106,7 @@ def displayGame(pygame, screen, player, apple):
         screen.blit(
             z, (player.state[i]['x']*MODULO_SCREEN, player.state[i]['y']*MODULO_SCREEN))
     player.CheckEatApple(apple, lastX, lastY, lastLook)
-    a = pygame.image.load("textures/Apple.png")
+    a = pygame.image.load("textures/apple2.png")
     screen.blit(a, (apple.x*MODULO_SCREEN, apple.y*MODULO_SCREEN))
     pygame.display.update()
     pass
